@@ -13,10 +13,7 @@ public class MegaCollection {
         Technical s = new Technical();
 
         s.setTitle("PUBG");
-        s.setSummary("PUBG");
-        s.setTask("");
-        s.setJudcriteria("");
-        s.setCoordinators("");
+        s.setSummary("");
         s.setImage(R.drawable.pubg);
         events.add(s);
 

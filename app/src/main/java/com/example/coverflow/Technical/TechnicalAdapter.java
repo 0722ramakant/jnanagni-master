@@ -89,11 +89,9 @@ public class TechnicalAdapter extends RecyclerView.Adapter<TechnicalViewHolder> 
                 Bundle bundle = new Bundle();
                 bundle.putInt("image", s.getImage());
                 i.putExtras(bundle);
-                i.putExtra("title", s.getTitle());
+
                 i.putExtra("summary", s.getSummary());
-                i.putExtra("Task", s.getTask());
-                i.putExtra("judgecriteria", s.getJudcriteria());
-                i.putExtra("coordinators", s.getCoordinators());
+
                 c.startActivity(i);
 
 
