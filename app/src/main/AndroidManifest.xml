@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coverflow">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_jk"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_jnanagni_round"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FrontActivity">
+
+        </activity>
+        <activity
+            android:name=".Register.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register.DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gallery.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cultural.CulturalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SponsorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register.ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register.SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventDetail1.EventActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact.ContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme.Base" />
+        <activity
+            android:name=".MegaEvent.MegaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sport.SportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NonTech.NonTechActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TechActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Technical.TechnicalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
