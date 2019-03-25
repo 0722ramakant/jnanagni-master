@@ -3,16 +3,16 @@
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="360dp"
-    android:layout_height="252dp"
+    android:layout_height="240dp"
 
     android:layout_marginLeft="25dp"
-    android:layout_marginTop="20dp">
+    android:layout_marginTop="15dp">
 
 
     <com.github.florent37.diagonallayout.DiagonalLayout
         android:id="@+id/diagonalLayout2"
         android:layout_width="300dp"
-        android:layout_height="220dp"
+        android:layout_height="180dp"
 
         app:diagonal_angle="0"
         app:diagonal_direction="left"
@@ -67,10 +67,10 @@
             android:layout_height="30dp"
             android:text="Apper"
             android:textAlignment="center"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
 
             android:textSize="20dp"
-            android:textStyle="italic" />
+            android:textStyle="bold" />
 
 
     </androidx.cardview.widget.CardView>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#213194</color>
-    <color name="colorPrimaryDark">#213194</color>
-    <color name="colorAccent">#400D9B</color>
+    <color name="colorPrimary">#2b7a78</color>
+    <color name="colorPrimaryDark">#2b7a78</color>
+    <color name="colorAccent">#2b7a78</color>
     <color name="Accent">#400D9B</color>
 
-    <color name="status_bar">#213194</color>
+    <color name="status_bar">#2b7a78</color>
 
 
     <color name="bgGradientStart">#000000</color>
@@ -19,8 +19,8 @@
     <color name="colorPrimaryDark1">#213194</color>
     <color name="colorAccent1">#400D9B</color>
 
-    <color name="GradStart">#FF8C00</color>
-    <color name="Gradstop">#000000</color>
+    <color name="GradStart">#ffdf00</color>
+    <color name="Gradstop">#2b7a78</color>
 
     <color name="white">#FFFFFF</color>
     <color name="trans">#000000</color>
