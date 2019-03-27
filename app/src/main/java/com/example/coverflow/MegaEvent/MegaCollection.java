@@ -13,7 +13,7 @@ public class MegaCollection {
         Technical s = new Technical();
 
         s.setTitle("PUBG");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/1ibQ3FDTUV2QuRrjBWEegvZ506vRL6-s8/view?usp=sharing");
         s.setImage(R.drawable.pubg);
         events.add(s);
 

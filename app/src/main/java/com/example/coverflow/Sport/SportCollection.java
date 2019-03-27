@@ -14,7 +14,7 @@ public class SportCollection {
 
 
         s.setTitle("BADMINTON");
-        s.setSummary("BADMINTON");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovVU1ZUjBlcy0yb1dwbWw0eHRqVG9sRmdtMHlv/view?usp=sharing");
 
         s.setImage(R.drawable.badmintan);
         events.add(s);
@@ -23,7 +23,7 @@ public class SportCollection {
 
         s = new Technical();
         s.setTitle("CHESSOMANIA");
-        s.setSummary("CHESSOMANIA");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovRGJnTGpNOFVzeWctZzRROHgzekhBU0l3VGdJ/view?usp=sharing");
 
         s.setImage(R.drawable.chess);
         events.add(s);
@@ -32,13 +32,13 @@ public class SportCollection {
 
         s = new Technical();
         s.setTitle("CARROM");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovZFNMeThPR0ZKZ3pGbFNfcmk5OFJiVGZIT1pZ/view?usp=sharing");
         s.setImage(R.drawable.carrom);
         events.add(s);
 
         s = new Technical();
         s.setTitle("TABLE TENNIS");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovUUo0OGx1Tlc2VWdzZFNpeWlITG15djNwNThz/view?usp=sharing");
         s.setImage(R.drawable.table);
         events.add(s);
 

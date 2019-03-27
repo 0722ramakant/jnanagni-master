@@ -13,7 +13,7 @@ public class TechnicalCollection {
         Technical s = new Technical();
 
         s.setTitle("APPDIE");
-        s.setSummary("https://drive.google.com/file/d/1rd3wb0xnjRX466xJJFdlSX2LJwaPpwRA/view?usp=sharing");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovZENUZG9qMGJJUHBtUTVzRjNEUFpiQlRneGVF/view?usp=sharing");
 
         s.setImage(R.drawable.app);
         events.add(s);
@@ -31,8 +31,8 @@ public class TechnicalCollection {
 
 
         s = new Technical();
-        s.setTitle("DECIPHER");
-        s.setSummary("DECIPHER");
+        s.setTitle("CIPHER");
+        s.setSummary("https://drive.google.com/file/d/1x9tCwvfI1pBlahYtENQBrSCmIOy9fmiT/view?usp=sharing");
 
         s.setImage(R.drawable.decipher);
         events.add(s);
@@ -52,13 +52,13 @@ public class TechnicalCollection {
 
         s = new Technical();
         s.setTitle("EXGESIS");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovd0tIY0xfNHRya2JpYV9QN0p1a0JHNzBUTHI0/view?usp=sharing");
         s.setImage(R.drawable.circuit);
         events.add(s);
 
         s = new Technical();
         s.setTitle("HYDRORISER");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovN2ZaaHZoV2xiMXlkaWREMmZxWHNoQnNiVTNZ/view?usp=sharing");
         s.setImage(R.drawable.decipher);
         events.add(s);
 
@@ -74,7 +74,7 @@ public class TechnicalCollection {
         s = new Technical();
         s.setTitle("NOPC");
 
-        s.setSummary("" );
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovbmFHTUhlWjZLeWUtOTVvTTh6YktKZmRmSFFn/view?usp=sharing" );
 
         s.setImage(R.drawable.n1);
         events.add(s);
@@ -82,7 +82,7 @@ public class TechnicalCollection {
 
         s = new Technical();
         s.setTitle("PROJECT EXPO");
-        s.setSummary(" PROJECT EXPO");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovbjhWa1pOUjRXQkRVeTJURTBDNkIxdGpDMzBz/view?usp=sharing");
 
         s.setImage(R.drawable.electronics);
         events.add(s);
@@ -122,14 +122,14 @@ public class TechnicalCollection {
 
         s = new Technical();
         s.setTitle("WEBER");
-        s.setSummary("");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovdk0xamhXZUJVR2drUnlKVDVxYVJweWZaV01z/view?usp=sharing");
         s.setImage(R.drawable.web);
         events.add(s);
 
 
         s = new Technical();
         s.setTitle("TINKERER");
-        s.setSummary("TINKERER");
+        s.setSummary("https://drive.google.com/file/d/0B8GBGD15aQovOHBsckowWDFCbGh1S3hlaG9jSFdPa0pydklr/view?usp=sharing");
 
         s.setImage(R.drawable.tinkerer);
         events.add(s);

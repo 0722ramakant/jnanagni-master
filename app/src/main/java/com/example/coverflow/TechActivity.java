@@ -6,6 +6,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toolbar;
@@ -15,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class TechActivity extends AppCompatActivity {
     Window window;
     ImageView imageView;
-    TextView textsummary;
+   Button textsummary;
 
 
     String summary;
@@ -36,7 +37,7 @@ public class TechActivity extends AppCompatActivity {
         Bundle bundle = this.getIntent().getExtras();
         int pic = bundle.getInt("image");
         imageView.setImageResource(pic);
-        textsummary.setText("" + summary);
+
 
         textsummary.setOnClickListener(new View.OnClickListener() {
             @Override
